@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+/* header css */
+
+header {
+    width: 100%;
+    background-color: #ff6002;
+    float: left;
+    border-bottom: 1px solid #e55602;
+}
+
+header .logotitle {
+    float: right;
+    margin-top: 28px;
+    color: #fff;
+}
+
+h1.logo {
+    height: 40px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 127px;
+    margin-left: 5px;
+}
+
+h1 span {
+    display: none;
+}
+
+.topnav {
+    width: 500px;
+    float: right;
+    margin-top: 12px;
+}
+
+.topnav {
+    display: none;
+}
+/* nav css */
+
+nav {
+    background-color: #ff6002;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+nav ul li a:focus .circle {
+    background-color: #fff;
+    color: #ff6002;
+}
+
+nav ul li:hover .circle {
+    background-color: #fff;
+    color: #ff6002;
+}
+
+.circle {
+    margin-right: 2px;
+    border: 2px solid #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+/* section start */
+
+section {
+    clear: both;
+    padding-top: 25px;
+    left: 50%;
+    right: 50%;
+}
+
+.titleArea {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #e7eef1;
+    padding-bottom: 20px;
+}
+
+.title {
+    color: #ff6002;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.productTitle {
+    font-size: 22px;
+    margin-top: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+/* css for product intro */
+
+.productIntro {
+    padding-top: 19px;
+    overflow: hidden;
+}
+
+.productImage {
+    float: left;
+    width: 41%;
+    position: relative;
+    margin-left: 10px;
+}
+
+.productImage span {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: #ff6002;
+    padding: 21px 10px;
+    border-radius: 50%;
+    opacity: 0.9;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.productDesc {
+    float: left;
+    width: 53%;
+    padding-bottom: 25px;
+}
+
+.footerhide {
+    display: none;
+}
+
+.productDesc p {
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.productDesc a {
+    text-decoration: none;
+    color: #35b39e;
+}
+
+.paraShow {
+    display: none;
+}
+
+.buttonStart {
+    margin-bottom: 25px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.buttonStart input[type="button"] {
+    background-color: #35b39e;
+    border: none;
+    padding: 10px 120px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+}
+/* css for product description */
+
+.ProductDescription {
+    float: left;
+    overflow: hidden;
+}
+
+.ProductDescription p {
+    text-align: center;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+/* footer */
+footer {
+    margin-top: 22px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+
+.icon {
+    display: block;
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+}
+
+.msc {
+    background: url('../images/footet.png') no-repeat 0 0;
+    width: 30px;
+    height: 30px;
+}
+
+.user {
+    background: url('../images/footet.png') no-repeat -40px 0;
+    width: 30px;
+    height: 30px;
+}
+
+.tra {
+    background: url('../images/footet.png') no-repeat -80px 0;
+    width: 30px;
+    height: 30px;
+}
+
+.titleAreas {
+    display: none;
+}
+
+/* css for desktop */
+@media only screen and (min-width: 768px) {
+  .productImage img {
+        display: none;
+  }
+
+  .productImage {
+        background-image: url(../images/webimages/webproductimage.png);
+        height: 230px;
+        background-repeat: no-repeat;
+  }
+
+  .buttonStart {
+        float: left;
+        margin-top: 22px;
+        width: 27%;
+  }
+
+  .paraShow {
+        display: block;
+        font-size: 14px;
+        line-height: 19px;
+  }
+
+  .ProductDescription {
+        display: none;
+  }
+
+  .productDesc ul li {
+        display: inline;
+        float: left;
+        margin-right: 5px;
+  }
+
+  footer {
+        display: none;
+  }
+
+  .footerhide {
+        display: block;
+        padding: 0
+  }
+
+  header .logotitle {
+        float: left;
+  }
+
+  header ul {
+        display: block;
+        float: right;
+  }
+
+  .navigation {
+        display: none;
+  }
+
+  .topnav {
+        display: block;
+        width: 314px;
+  }
+
+  .titleArea {
+        display: none;
+  }
+
+  .titleAreas {
+        display: block;
+        border-bottom: 1px solid #e7eef1;
+        padding-bottom: 10px;
+  }
+}
